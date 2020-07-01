@@ -1,0 +1,30 @@
+#modal {
+    background-color: #0e0a14eF;
+
+
+    height: 100vh;
+    width: 100vw;
+
+    /* botar ela para cima da tela' */
+    position: fixed;
+    top: 0;
+
+    /* alinhar ao meio */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ms;
+}
+
+/* Faz com o que o JS aparece o modal ou nao */
+/* #modal.hide {
+    display: none;
+} */
+#modal  h1 {
+    color: white;
+
+    font-size: 36px;
+    line-height: 42px;
+}
